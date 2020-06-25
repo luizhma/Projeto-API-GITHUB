@@ -1,0 +1,68 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    clear:both;
+    margin-top: 20px;
+}
+img {
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+strong {
+    font-size: 20px;
+}
+p {
+    margin: 5px 0;
+}
+
+body{
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+* {
+    box-sizing: border-box;
+}
+
+#repo-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#repo-form input{
+    margin-right: 5px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#repo-form button{
+    border-radius: 5px;
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+    width: 90px;
+    
+}
+
+
+#repo-list{
+    margin: auto;
+    flex-wrap: wrap;
+    max-width: 500px;
+    justify-content: center;
+    margin-left: 30%;
+    
+}
+
+#repo-list li{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 3px solid #222222;
+    border-radius: 5px;
+}
+
